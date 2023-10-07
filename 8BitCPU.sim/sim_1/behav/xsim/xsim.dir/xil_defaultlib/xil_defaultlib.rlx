@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/8BitCPU/8BitCPU.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+F:/8BitCPU/8BitCPU.srcs/sim_1/new/ControlRoute_tb.v,1663917067,verilog,,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/ControlRouteRemake.v,ControlRoute_tb,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/ALU.v,1663582501,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/CLKControlAno.v,,ALU,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/ALUControl.v,1663688302,verilog,,,,ALUControl,,,,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/CLKControlAno.v,1662723930,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/ControlRouteRemake.v,,CLKControlAno,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/Control.v,1663689357,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/ALU.v,,Control,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/ControlRouteRemake.v,1665108413,verilog,,F:/8BitCPU/8BitCPU.srcs/sim_1/new/ControlRoute_tb.v,F:/8BitCPU/8BitCPU.srcs/sources_1/new/CLKControlAno.v;F:/8BitCPU/8BitCPU.srcs/sources_1/new/ALUControl.v,ControlRouteRemake,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/DataStore.v,1663583574,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/Control.v,,DataStore,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/OrderStore.v,1664973616,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/DataStore.v,,OrderStore,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/PC.v,1664975056,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/OrderStore.v,,PC,,,../../../../8BitCPU.srcs/sources_1/new,,,,,
+F:/8BitCPU/8BitCPU.srcs/sources_1/new/Reg.v,1662730756,verilog,,F:/8BitCPU/8BitCPU.srcs/sources_1/new/PC.v,,Reg,,,../../../../8BitCPU.srcs/sources_1/new,,,,,

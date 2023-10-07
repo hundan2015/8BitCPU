@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/Reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/OrderStore.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OrderStore
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/DataStore.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataStore
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/CLKControlAno.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLKControlAno
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sources_1/new/ControlRouteRemake.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLKControlAno
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'CLKControlAno' [../../../../8BitCPU.srcs/sources_1/new/CLKControlAno.v:23]
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-311] analyzing module ControlRouteRemake
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.srcs/sim_1/new/ControlRoute_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLKControlAno
+INFO: [VRFC 10-311] analyzing module ALUControl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ALUControl' [../../../../8BitCPU.srcs/sources_1/new/ALUControl.v:23]
+INFO: [VRFC 10-311] analyzing module ControlRouteRemake
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'ControlRouteRemake' [../../../../8BitCPU.srcs/sources_1/new/ControlRouteRemake.v:25]
+INFO: [VRFC 10-311] analyzing module ControlRoute_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/8BitCPU/8BitCPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

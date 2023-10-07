@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ControlRoute_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ControlRoute_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1788000001fs"></ZoomEndTime>
+      <Cursor1Time time="850000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="136"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="71" />
+   <wvobject fp_name="/ControlRoute_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/aluDataOut" type="array">
+      <obj_property name="ElementShortName">aluDataOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aluDataOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK1" type="logic">
+      <obj_property name="ElementShortName">CLK1</obj_property>
+      <obj_property name="ObjectShortName">CLK1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK2" type="logic">
+      <obj_property name="ElementShortName">CLK2</obj_property>
+      <obj_property name="ObjectShortName">CLK2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK3" type="logic">
+      <obj_property name="ElementShortName">CLK3</obj_property>
+      <obj_property name="ObjectShortName">CLK3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK4" type="logic">
+      <obj_property name="ElementShortName">CLK4</obj_property>
+      <obj_property name="ObjectShortName">CLK4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLK5" type="logic">
+      <obj_property name="ElementShortName">CLK5</obj_property>
+      <obj_property name="ObjectShortName">CLK5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/PC_CLK" type="logic">
+      <obj_property name="ElementShortName">PC_CLK</obj_property>
+      <obj_property name="ObjectShortName">PC_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/PC_lastPos" type="array">
+      <obj_property name="ElementShortName">PC_lastPos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_lastPos[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/PC_outPos" type="array">
+      <obj_property name="ElementShortName">PC_outPos[15:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_outPos[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/mux_isBranch" type="array">
+      <obj_property name="ElementShortName">mux_isBranch[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_isBranch[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/OrderStore_CLK" type="logic">
+      <obj_property name="ElementShortName">OrderStore_CLK</obj_property>
+      <obj_property name="ObjectShortName">OrderStore_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/OrderStore_addressIn" type="array">
+      <obj_property name="ElementShortName">OrderStore_addressIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">OrderStore_addressIn[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/OrderStore_orderOut" type="array">
+      <obj_property name="ElementShortName">OrderStore_orderOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OrderStore_orderOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctrl" type="array">
+      <obj_property name="ElementShortName">ctrl[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/readReg1" type="array">
+      <obj_property name="ElementShortName">readReg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/readReg2" type="array">
+      <obj_property name="ElementShortName">readReg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/writeReg" type="array">
+      <obj_property name="ElementShortName">writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/funcCode" type="array">
+      <obj_property name="ElementShortName">funcCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funcCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/address" type="array">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_RegDst" type="logic">
+      <obj_property name="ElementShortName">ctl_RegDst</obj_property>
+      <obj_property name="ObjectShortName">ctl_RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_Branch" type="logic">
+      <obj_property name="ElementShortName">ctl_Branch</obj_property>
+      <obj_property name="ObjectShortName">ctl_Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_MemRead" type="logic">
+      <obj_property name="ElementShortName">ctl_MemRead</obj_property>
+      <obj_property name="ObjectShortName">ctl_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">ctl_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">ctl_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_MemWrite" type="logic">
+      <obj_property name="ElementShortName">ctl_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">ctl_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ctl_ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ctl_ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ctl_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ctl_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ctl_ALUOp" type="array">
+      <obj_property name="ElementShortName">ctl_ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ctl_ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/mux_writeReg" type="array">
+      <obj_property name="ElementShortName">mux_writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_writeReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/Reg_readDataOut1" type="array">
+      <obj_property name="ElementShortName">Reg_readDataOut1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_readDataOut1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/Reg_readDataOut2" type="array">
+      <obj_property name="ElementShortName">Reg_readDataOut2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_readDataOut2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/mux_whereDataFrom" type="array">
+      <obj_property name="ElementShortName">mux_whereDataFrom[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_whereDataFrom[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/Reg_dataIn" type="array">
+      <obj_property name="ElementShortName">Reg_dataIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Reg_dataIn[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ALU_ALUcontrol" type="array">
+      <obj_property name="ElementShortName">ALU_ALUcontrol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_ALUcontrol[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ALU_res" type="array">
+      <obj_property name="ElementShortName">ALU_res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_res[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/mux_aluInput" type="array">
+      <obj_property name="ElementShortName">mux_aluInput[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_aluInput[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/ADD_shamt" type="array">
+      <obj_property name="ElementShortName">ADD_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/Datastore_dataOut" type="array">
+      <obj_property name="ElementShortName">Datastore_dataOut[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Datastore_dataOut[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/CLKReg" type="array">
+      <obj_property name="ElementShortName">CLKReg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CLKReg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/counter" type="array">
+      <obj_property name="ElementShortName">counter[63:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/TIME" type="array">
+      <obj_property name="ElementShortName">TIME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TIME[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/ALUcontrol" type="array">
+      <obj_property name="ElementShortName">ALUcontrol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUcontrol[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/src1" type="array">
+      <obj_property name="ElementShortName">src1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">src1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/src2" type="array">
+      <obj_property name="ElementShortName">src2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">src2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/ADD_shamt" type="array">
+      <obj_property name="ElementShortName">ADD_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ADD_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/ZF" type="logic">
+      <obj_property name="ElementShortName">ZF</obj_property>
+      <obj_property name="ObjectShortName">ZF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/res" type="array">
+      <obj_property name="ElementShortName">res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">res[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/alu/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/cpuRegs" type="array">
+      <obj_property name="ElementShortName">cpuRegs[31:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">cpuRegs[31:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/dataStore/memory" type="array">
+      <obj_property name="ElementShortName">memory[255:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[255:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/aluControl/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/aluControl/FuncCode" type="array">
+      <obj_property name="ElementShortName">FuncCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">FuncCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/aluControl/ALUCtl" type="array">
+      <obj_property name="ElementShortName">ALUCtl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUCtl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/readRegPosIn1" type="array">
+      <obj_property name="ElementShortName">readRegPosIn1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readRegPosIn1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/readDataOut1" type="array">
+      <obj_property name="ElementShortName">readDataOut1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readDataOut1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/cpuRegs" type="array">
+      <obj_property name="ElementShortName">cpuRegs[31:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">cpuRegs[31:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/readDataOut2" type="array">
+      <obj_property name="ElementShortName">readDataOut2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">readDataOut2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/readRegPosIn2" type="array">
+      <obj_property name="ElementShortName">readRegPosIn2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readRegPosIn2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/writeRegPosIn" type="array">
+      <obj_property name="ElementShortName">writeRegPosIn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeRegPosIn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/ctl_RegWrite" type="logic">
+      <obj_property name="ElementShortName">ctl_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">ctl_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/regStore/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/orderStore/orderOut" type="array">
+      <obj_property name="ElementShortName">orderOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">orderOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/orderStore/addressIn" type="array">
+      <obj_property name="ElementShortName">addressIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addressIn[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ControlRoute_tb/ctlR/orderStore/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
